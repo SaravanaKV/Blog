@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sytle.css">
+    <title>Saravanakumar</title>
+    <script src="https://kit.fontawesome.com/4ef12c33c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2><span>S</span>aroo</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portpolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>ECE Engineer</p>
+                <h1>Hi,<br>I'm <span>Saravanakumar V</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-co1-1">
+                    <img src="images/img1.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Saravanakumar V, currently pursuing a Bachelor's in Electronics and Communication Engineering at Kamaraj College of Engineering and Technology with a CGPA of 7.55.
+
+                        <br>I have hands-on experience with IoT and software development, having worked on projects like a Greenhouse Monitoring System using C++ and NodeMCU, and an Autonomous Car with Arduino. These projects helped me develop skills in C++, Python, and Java, among others.
+                        
+                        <br>I've also participated in various technical events, winning 1st prize in the 'GENESIS'23' Tech-quiz and presenting a paper on Renewable Energy. I have certifications in Front-End Development and Embedded Systems, and I'm actively involved in extracurricular activities like the NSS and TQI.
+                        
+                        <br>I'm passionate about IoT and software development and am eager to apply my skills in these areas.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience & Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Intermediate</span></li>
+                            <li>C Programming</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Figma (UI/UX Design)</li>
+                            <li>Web development (HTML, CSS, JS)</li>
+                            <li>IoT using NodeMCU & Arduino</li>
+                            <li><span>Beginner</span></li>
+                            <li></li>
+                            <li>C++</li>
+                            <li>MySQL</li>
+                            
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>CGPA - 7.55<span> *</span><br>BE-Electronics and communication Engineering<br>Kamaraj College of Engineering and Technology</li>
+                            <li><span>2020-2021</span><br>HSC - 77 %<br>Government Higher Secondary School,Iluppaiyur</li>
+                            <li><span>2018-2019</span><br>SSLC - 65 %<br>Government Higher Secondary School,Iluppaiyur</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>11-06-2023 to 11-07-2023</span><br>Certification of completion in Front-End Development</li>
+                            <li><span>05-02-2023 to 11-02-2023</span><br>Certification of completion in State level NSS camp</li>
+                            <li><span>January 2023</span><br>Certification of completion in Internet of Things</li>
+                            <li><span>2023</span><br>Attended a 12-week workshop to promote gender
+                                equality and prevent child abuse organized by Sakshi
+                                and ministry of Youth Affairs and Sports</li>
+                            <li><span>19- 12-2022 to 25-12-2022</span><br>Certification of completion in Embedded System</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Completed a 3 Month Web Development Internship in Pantech E-learning<br>I creating a Portfolio website using HTML, CSS and Java Script.</p>
+                    <a href="https://saravanakumar-60032016502.development.catalystserverless.in/app/index.html#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I have experience in Designing UI/UX for Mobile app and desktop using Figma</p>
+                    <a href="https://www.figma.com/design/L0k22cadGcwb1HL8MtwNNP/GreenHouse?node-id=0-1&t=xPnCoWYn7YnNj2i6-0">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>IoT Projects</h2>
+                    <p>I have hands-on experience with IoT, having worked on projects like a Greenhouse Monitoring System using C++ and NodeMCU, and an Autonomous Car with Arduino</p>
+                    <a href="">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Portpolio Website</h3>
+                        <p>Mobile Website for the portfolio</p>
+                        <a href="https://saravanakumar-60032016502.development.catalystserverless.in/app/index.html#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>UX/UI Design</h3>
+                        <p>UX/UI Design for Greenhouse monitoring system</p>
+                        <a href="https://www.figma.com/design/L0k22cadGcwb1HL8MtwNNP/GreenHouse?node-id=0-1&t=xPnCoWYn7YnNj2i6-0"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Portfolio App</h3>
+                        <p>Portfolio App for me </p>
+                        <a href="https://saravanakumar-60032016502.development.catalystserverless.in/app/index.html#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>sk9341748@gamil.com</p>
+                    <p><i class="fa-solid fa-phone"> </i>8667745859</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/saravanakumar-v-r/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/SaravanaKV"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.skillrack.com/faces/resume.xhtml?id=364123&key=5da0d415a0904bda0dea5cc244671c449991e8cd"><i class="fa-solid fa-code"></i></a>
+                        <a href="https://leetcode.com/u/Saro_kv/"><i class="fa-solid fa-laptop-code"></i></a>
+                        <a href="https://www.canva.com/design/DAGKzlUCKeA/nkD-NLnaJTxTbpTZW-d0oQ/view"><span>R</span>esume</a>
+                    </div>
+                    <a href="images/Saravanakumar_V_Res.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Hello</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Saravanakumar</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwDRyXzs0rAgVO2NouJFdgvFbS8DXxmka9d5lbvz0tfvDshCJ-xXjfWO4tL0AdO_E5gPw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
